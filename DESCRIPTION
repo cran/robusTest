@@ -1,16 +1,24 @@
 Package: robusTest
-Title: Calibrated Correlation, Two-Sample Tests
-Version: 1.0.0
+Title: Calibrated Correlation and Two-Sample Tests
+Version: 1.0.1
 Authors@R: 
-    person(given = "Olivier",
+    c(person(given = "Olivier",
            family = "Bouaziz",
            role = c("aut", "cre"),
-           email = "olivier.bouaziz@parisdescartes.fr")
+           email = "olivier.bouaziz@parisdescartes.fr"),
+    person(given = "Jérôme",
+           family = "Dedecker",
+           role = c("aut"),
+           email = "jerome.dedecker@parisdescartes.fr"),
+     person(given = "Anatole",
+           family = "Dedecker",
+           role = c("aut"),
+           email = "anatolededecker@gmail.com"))
 Description: Implementation of corrected two-sample tests. A corrected version of the Pearson and Kendall correlation tests, 
- the Mann-Whitney (Wilcoxon) rank sum test, the Mann-Whitney (Wilcoxon) signed rank test and a variance test are implemented.
- The package also proposes a test for the median. All these corrected tests are asymptotically calibrated meaning that
- the probability of rejection under the null hypothesis is asymptotically equal to the level of the test. The package also proposes a test for 
- independence between two continuous variables of Kolmogorov-Smirnov's type. This test is exact.
+ the Mann-Whitney (Wilcoxon) rank sum test, the Wilcoxon signed rank test and a variance test are implemented.
+ The package also proposes a test for the median and an independence test between two continuous variables of Kolmogorov-Smirnov's type. 
+ All these corrected tests are asymptotically calibrated in the sense that the probability of rejection under the null hypothesis is 
+ asymptotically equal to the level of the test. See <arXiv:2211.08784> for more details on the statistical tests.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -21,8 +29,10 @@ Imports: Rcpp, stats
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2022-11-14 13:19:47 UTC; obouaziz
-Author: Olivier Bouaziz [aut, cre]
+Packaged: 2022-12-15 07:14:59 UTC; obouaziz
+Author: Olivier Bouaziz [aut, cre],
+  Jérôme Dedecker [aut],
+  Anatole Dedecker [aut]
 Maintainer: Olivier Bouaziz <olivier.bouaziz@parisdescartes.fr>
 Repository: CRAN
-Date/Publication: 2022-11-16 06:30:02 UTC
+Date/Publication: 2022-12-15 07:30:02 UTC
