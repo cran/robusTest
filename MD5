@@ -1,4 +1,4 @@
-5775e71565a74917096fb3df88779579 *DESCRIPTION
+a71ae61befc9f689a4167997b80cb513 *DESCRIPTION
 20c9f97794b67a9e9d09a306a9f19651 *LICENSE
 219cf13090c2a5d0e117ac8876666501 *NAMESPACE
 9dfd793cb55ed25609143274707dc129 *R/RcppExports.R
@@ -30,8 +30,8 @@ ad092c685553a2e3c7490d32c88d75c3 *man/vartest.Rd
 cd79409bb6f11ca67a4b96e5573f317b *src/spearman_fast.cpp
 758073462359250ded5ece9e724f88ec *tests/testthat.R
 7ddefa0beab94b9a8d5ed08ca47ab5e8 *tests/testthat/Recensement.txt
-acc34fad62fd97afc2ab699cc84dead0 *tests/testthat/testcor.R
-3c234203f1d3f2bd9e1fdaa403fbd9a2 *tests/testthat/testindep.R
+bb8015967e8616a3e9586e81c5eb2076 *tests/testthat/testcor.R
+0a642186a2bb1d5d30e9b6c7a4b90288 *tests/testthat/testindep.R
 cca247f9002a383bab096ba4845849ab *tests/testthat/testmedian.R
 a10ce3a1f65b67d88f259b0a2e763333 *tests/testthat/testtiebreak.R
 ddfada2c31fa8c2defd0e48e1c9139ae *tests/testthat/testvar.R
